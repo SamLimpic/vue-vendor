@@ -1,4 +1,4 @@
-# vue-vendor
+Preview: https://samlimpic.github.io/vue-vendor/
 
 ## Project setup
 ```
