@@ -1,5 +1,3 @@
-Preview: https://samlimpic.github.io/vue-vendor/
-
 ## Project setup
 ```
 npm install
