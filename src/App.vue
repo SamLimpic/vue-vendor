@@ -19,7 +19,7 @@
       <div id="sell" class="col-4 p-3">
         <div id="patron">
           <div class="row justify-content-around my-1 text-center">
-            <div class="col-10 px-0 bg-gray-dark card-border">
+            <div class="col-10 px-0 bg-dark rounded">
               <div
                 class="card shadow bg-danger py-3"
                 :style="{ width: `${state.health}%` }"
@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="row justify-content-around my-3 text-center">
-            <div class="col-10 px-0 bg-gray-dark card-border">
+            <div class="col-10 px-0 bg-dark rounded">
               <div
                 class="card shadow bg-primary py-3"
                 :style="{ width: `${state.mana}%` }"
@@ -35,7 +35,7 @@
             </div>
           </div>
           <div class="row justify-content-around my-3 text-center">
-            <div class="col-10 px-0 bg-gray-dark card-border">
+            <div class="col-10 px-0 bg-dark rounded">
               <div
                 class="card shadow bg-success py-3"
                 :style="{ width: `${state.stamina}%` }"
@@ -115,7 +115,7 @@
         </div>
         <div id="shop" class="row justify-content-around">
           <div
-            class="col-3 card card-border shadow bg-gray text-dark text-center p-3 m-3"
+            class="col-3 card shadow bg-dark text-light text-center p-3 m-3"
             v-for="potion in state.potions"
             :key="potion.name"
           >
